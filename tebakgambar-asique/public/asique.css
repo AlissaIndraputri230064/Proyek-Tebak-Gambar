@@ -1,0 +1,568 @@
+body{
+    background-color: #00005A;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    color: #00005A;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #FEE600;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    font-family: 'Bungee';
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    margin-right: 30px;
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #00005A;
+    padding-right: 10px;
+}
+
+nav ul li a{
+    color: #00005A;
+}
+
+.signup-section{
+    display: inline-block;
+    color: #00005A;
+    font-family: 'Bungee', sans-serif;
+    font-size: 30px;
+    padding: 1cm;
+    margin-bottom: 0;
+}
+
+.signup-form button{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Ubuntu Mono';
+}
+
+.login-link {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Ubuntu Mono';
+
+}
+
+.logo img {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.intro {
+    color: white;
+    max-width: 50%;
+}
+
+.intro p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:'Ubuntu Mono';
+
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: aqua;
+    color: #00005A;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: 'Ubuntu Mono';
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #FF5733;
+    color: white;
+}
+
+
+
+.login{
+    display: inline-block;
+    color: #00005A;
+    font-family: 'Bungee', sans-serif;
+    font-size: 30px;
+    padding: 1cm;
+}
+
+
+
+.level{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Bungee';
+    color: white;
+    text-align: center;
+}
+
+.jawab{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.jaw{
+    font-size: 40px;
+    font-family: 'Bungee', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.textbox{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    margin-right: 20px;
+    font-family: 'Ubuntu Mono';
+}
+
+.tombol{
+    width: 80px;
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #FEE600;
+    font-family: 'Ubuntu Mono';
+}
+
+.tombol-a{
+    width: 80px;
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #FEE600;
+    font-family: 'Ubuntu Mono';
+    
+}
+
+.tombol-a a{
+    color: #00005A;
+}
+
+.kotak{
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+    background-color: #00005A;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak img{
+    height: 250px;
+}
+
+.gambar{
+    font-family: 'Bungee', sans-serif;
+    font-size: 50px;
+}
+
+.home p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.levels{
+    color: white;
+    font-family: 'Bungee';
+    margin: auto;
+    padding: 30px;
+}
+
+.levels h1{
+    text-align: center;
+    margin-left: 42px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.level-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    text-align: center;
+}
+
+.level-grid div {
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Bungee', cursive;
+    background-color:#00E1DD;
+}
+
+.level-grid div a {
+    text-decoration: none;
+    color:#00005A;
+}
+
+.level-grid div.locked {
+    background-color:#FE0000;
+    color:white;
+    cursor: not-allowed;
+}
+
+
+p{
+    font-family: 'Bungee', sans-serif; 
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    top: 100px;
+}
+
+.gambar{
+    height: auto;
+}
+
+.container-gambar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 10cm;
+    flex-direction: column;
+}
+
+.gambar {
+    max-width: 100%;
+    height: auto;
+}
+
+.coba{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #00E1DD;
+    font-family: 'Ubuntu Mono';
+}
+
+.check{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.check p{
+    font-size: 100px;
+}
+
+.records {
+    font-family: 'Bungee'; 
+    font-size: 48px; 
+    padding: 10px;
+    text-align: center;
+}
+  
+  .white {
+    color: white; /* Warna teks putih untuk "YOUR" */
+  }
+  
+  .purple {
+    color: #BF2ED5; /* Warna teks ungu untuk "RECORDS" */
+  }
+
+.details {
+    margin-top: 30px; /* Memberikan jarak antara judul dan detail */
+    font-size: 40px; /* Ukuran teks detail */
+    text-align: center;
+}
+
+.details p {
+    margin: 10px 0; /* Jarak antar baris */
+    letter-spacing: 2px; /* Memberikan spasi antar huruf */
+}
+
+.details .red {
+    color: #FE0000; /* Warna merah untuk angka */
+}
+
+.profile-box {
+    background-color: white; /* Latar belakang putih */
+    color: black; /* Warna teks hitam untuk label */
+    border-radius: 30px; /* Membuat sudut melengkung */
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto 20px; /* Tengah dan jarak bawah */
+    text-align: left;
+}
+
+.profile-box p {
+    font-size: 20px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.profile-box .label {
+    font-weight: bold;
+    color: #BF2ED5;
+}
+
+.profile-box .value {
+    color: #BF2ED5;
+}
+
+/* Tombol Edit */
+.edit-button {
+    background-color: red; 
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase; 
+    margin: 40px;
+    margin-left: -30px;
+    font-family: 'Ubuntu Mono';
+}
+
+.edit-button:hover {
+    background-color: #FF6347; /* Warna tombol lebih terang saat di-hover */
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+}
+
+label {
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+}
+
+span {
+    margin: 0 10px;
+}
+
+input {
+    flex: 2;
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Tombol Save */
+.save-button {
+    margin-top: 20px;
+    background-color: #BF2ED5; /* Warna ungu */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase; /* Huruf besar semua */
+}
+
+.save-button:hover {
+    background-color: #A020F0; /* Warna ungu lebih gelap saat di-hover */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0;
+}
+
+/* Bagian Kiri (Welcome Section) */
+.welcome-section {
+    font-family: 'Bungee',sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.welcome-section .yellow {
+    color: yellow;
+    font-size: 28px;
+}
+
+.welcome-section .red {
+    color: red;
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Bagian Kanan (Sign Up Section) */
+.signup-section {
+    flex: 0.45;
+    background-color: #00CED1; /* Warna cyan terang */
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.signup-section h2 {
+    color: #000080; /* Warna biru tua */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-form input {
+    background-color: #F5F5F5; /* Warna abu-abu terang */
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.signup-form button {
+    background-color: #BF2ED5; /* Warna ungu */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.signup-form button:hover {
+    background-color: #A020F0; /* Warna ungu lebih gelap saat hover */
+}
+
+.login-link {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container {
+    background-color: #161D6F;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.form-container h1 {
+    color: #BF2ED5;
+    margin-bottom: 20px;
+}
+
+.form-grup {
+    margin-bottom: 15px;
+}
+
+.form-grup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-grup input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEE;
+}
+
+.form-grup input:focus {
+    outline: none;
+    border: 2px solid #BF2ED5;
+}
+
+.btn {
+    background-color: #BF2ED5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #9F22B1;
+}
+
+.profile-btn {
+    margin-left: 500px;
+}
+
+
+.records{
+    margin-top: 50px;
+}
+
+.success-message{
+    font-family: 'Ubuntu Mono';
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
